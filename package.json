@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Villa Thalassa Booking site",
   "scripts": {
-    "build": "sass src/scss/style.scss dist/css/style.css",
-    "dev": "sass --watch src/scss/style.scss dist/css/style.css"
+    "build": "sass --style=compressed src/scss/style.scss dist/css/style.css",
+    "dev": "sass --watch --style=compressed src/scss/style.scss dist/css/style.css"
   },
-  "author": "Juliette Leibham"
+  "author": "Juliette Leibham",
+  "dependencies": {
+    "sass": "^1.69.7"
+  }
 }
