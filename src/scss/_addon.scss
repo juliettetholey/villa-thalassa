@@ -1,0 +1,225 @@
+.mil-language-btn {padding: 25px 15px;height: 24px;cursor: pointer;display: none;justify-content: center;align-items: center;transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);}
+
+@media screen and (max-width: 1200px) {
+  .mil-language-btn {
+    display: flex;
+    padding-left: 130px;
+  }
+}
+.mil-language-btn span, .mil-language-btn span:after, .mil-language-btn span:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #204f5e;
+  backface-visibility: hidden;
+  transition: inherit;
+}
+.mil-language-btn span {
+  position: relative;
+}
+.mil-language-btn span:after, .mil-language-btn span:before {
+  position: absolute;
+}
+.mil-language-btn span:before {
+  top: -8px;
+}
+.mil-language-btn span:after {
+  top: 8px;
+}
+.mil-language-btn.mil-active span {
+  transform: rotate(45deg);
+}
+.mil-language-btn.mil-active span:before {
+  transform: translate(0px, 8px) rotate(-90deg);
+}
+.mil-language-btn.mil-active span:after {
+  width: 24px;
+  transform: translate(0px, -8px) rotate(-90deg);
+}
+.mil-language-menu, .mil-mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+@media screen and (max-width: 1400px) {
+  .mil-language-menu, .mil-mobile-menu {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .mil-language-menu, .mil-mobile-menu {
+    padding: 40px 20px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #faffff;
+    box-shadow: 0px 4px 20px rgba(32, 79, 94, 0.05);
+    top: 95px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 20px);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(40px) scale(0.8);
+  }
+  .mil-language-menu.mil-active, .mil-mobile-menu.mil-active {
+    pointer-events: all;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  .mil-language-menu .mil-menu, .mil-mobile-menu .mil-menu {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .mil-language-menu .mil-menu ul, .mil-mobile-menu .mil-menu ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .mil-language-menu .mil-menu ul li, .mil-mobile-menu .mil-menu ul li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .mil-language-menu .mil-menu ul li:last-child, .mil-mobile-menu .mil-menu ul li:last-child {
+    margin-bottom: 0;
+  }
+  .mil-language-menu .mil-menu ul li.mil-current:before, .mil-mobile-menu .mil-menu ul li.mil-current:before {
+    display: none;
+  }
+  .mil-language-menu .mil-menu ul li.mil-current > a, .mil-mobile-menu .mil-menu ul li.mil-current > a {
+    color: #ecb934;
+  }
+  .mil-language-menu .mil-menu ul li ul, .mil-mobile-menu .mil-menu ul li ul {
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+    background-color: #eafbfb;
+    transform: translateY(0) scale(1);
+    box-shadow: none;
+    transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  }
+  .mil-language-menu .mil-menu ul li ul:before, .mil-mobile-menu .mil-menu ul li ul:before, .mil-language-menu .mil-menu ul li ul:after, .mil-mobile-menu .mil-menu ul li ul:after {
+    display: none;
+  }
+  .mil-language-menu .mil-menu ul li ul li:first-child, .mil-mobile-menu .mil-menu ul li ul li:first-child {
+    margin-top: 20px;
+  }
+  .mil-language-menu .mil-menu ul li ul li:last-child, .mil-mobile-menu .mil-menu ul li ul li:last-child {
+    margin-bottom: 20px;
+  }
+  .mil-language-menu .mil-menu ul li:hover ul, .mil-mobile-menu .mil-menu ul li:hover ul {
+    margin-top: 20px;
+    max-height: 500px;
+  }
+}
+
+.mil-language-menu {
+  display: none;
+    
+    @media screen and (max-width: 1200px) {
+        display: flex;
+    }
+}
+
+.langugage-destkop {
+    display: none;
+    
+    @media screen and (max-width: 1200px) {
+        display: block;
+    }
+}
+
+.mil-shape-bottom{  
+  @media screen and (max-width: 1200px) {
+      display: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+th, td {
+  border: 1px solid rgb(90, 134, 149);
+  padding: 10px;
+}
+
+thead th {
+  width: 25%;
+}
+
+.label-img a{
+  text-decoration: none;
+}
+.label-img img{
+  @media screen and (max-width: 1200px) {
+    width: 15%;
+}
+
+}
+button#BtnLaunchBooking {
+    border-radius: 60px;
+    font-family: 'Outfit';
+    letter-spacing: 2px;
+}
+.co-widget.co-widget-vertical .co-widget-title > div {
+    letter-spacing: 2px;
+    font-family: 'Outfit';
+    padding-bottom: 30px;
+}
+.co-widget-p-link-gift-voucher > a, .co-widget-p-link-clickandcollect > a{
+    border-radius: 60px;
+    font-family: 'Outfit';
+    letter-spacing: 2px;
+}
+.co-widget .co-widget-date #FieldDate {font-family: 'Outfit';}
+div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget input, div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget .co-widget-styled, div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget .co-widget-occupancy .co-widget-occupancy-define {font-family: 'Outfit';}
+div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget-occupancy-define label, div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget .co-widget-styled select {font-family: 'Outfit';}
+div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget .co-widget-btn-resume-capa {font-family: 'Outfit';}
+
+.scrollable {
+	overflow-x:auto;
+}
+.scrollable.has-scroll {
+	position:relative;
+	overflow:hidden;
+}
+.scrollable.has-scroll:after {
+	position:absolute;
+	top:0;
+	left:100%;
+	width:50px;
+	height:100%;
+	border-radius:10px 0 0 10px / 50% 0 0 50%;
+	box-shadow:-5px 0 10px rgba(0, 0, 0, 0.25);
+	content:'';
+}
+.scrollable.has-scroll > div {
+	overflow-x:auto;
+}
+.scrollable > div::-webkit-scrollbar {
+	height:12px;
+}
+.scrollable > div::-webkit-scrollbar-track {
+	box-shadow:0 0 2px rgba(0,0,0,0.15) inset;
+	background:#f0f0f0;
+}
+.scrollable > div::-webkit-scrollbar-thumb {
+	border-radius:6px;
+	background:#ccc;
+}
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+.index-2 {
+  z-index: 2;
+}
