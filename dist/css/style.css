@@ -225,3 +225,8 @@ div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"] .co-widget .co-widget
 .index-2 {
   z-index: 2;
 }
+.mil-top-panel .mil-top-panel-content .mil-logo img {
+  @media screen and (max-width: 1200px) {
+    width: 80%;
+}
+}
