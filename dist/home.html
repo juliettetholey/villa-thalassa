@@ -1,325 +1,540 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <!-- bootstrap grid css -->
-      <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-      <!-- swiper css -->
-      <link rel="stylesheet" href="css/plugins/swiper.min.css">
-      <!-- datepicker css -->
-      <link rel="stylesheet" href="css/plugins/datepicker.css">
-      <!-- aquarelle css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- page name -->
-      <title>Villa Thalassa: Bed and Breakfast on the French Riviera</title>
-      <meta name="description" content="Charming Bed and Breakfast facing the sea located on the French Riviera in Le Lavandou with swimming pool. Book now!">
-      <!-- hreflangs -->
-      <link rel="alternate" hreflang="x-default" href="https://www.villathalassa-lavandou.fr/"/>
-      <link rel="alternate" hreflang="fr" href="https://www.villathalassa-lavandou.fr/"/>
-      <link rel="alternate" hreflang="en" href="https://www.villathalassa-lavandou.fr/home.html"/>
-      <link rel="alternate" hreflang="de" href="https://www.villathalassa-lavandou.fr/lage.html"/>
-      <!-- favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-      <link rel="manifest" href="img/favicon/site.webmanifest">
-      <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="theme-color" content="#ffffff">
-   </head>
-   <body>
-      <!-- wrapper -->
-      <div class="mil-wrapper">
-         <!-- top panel -->
-         <div class="mil-top-panel">
-            <div class="container">
-               <div class="mil-top-panel-content">
-                  <a href="home.html" class="mil-logo">
-                  <img src="img/logo-villa.png" alt="Logo Villa Thalassa au Lavandou, Var">
-                  </a>
-                  <div class="mil-language-btn">
-                      <i data-feather="globe"></i>
-                  </div>
-                  <div class="mil-language-menu">
-                     <nav class="mil-menu">
-                          <ul>
-                             <li><a href="index.html">Français</a></li>
-                             <li><a href="lage.html">Deutsch</a></li>
-                          </ul>
-                     </nav>
-                  </div>
-                   
-                  <div class="mil-menu-btn">
-                     <span></span>
-                  </div>
-                  <div class="mil-mobile-menu">
-                     <nav class="mil-menu">
-                        <ul>
-                           <li>
-                              <a href="our_rooms.html">Our Rooms</a>
-                           </li>
-                           <li>
-                              <a href="rates.html">Rates</a>
-                           </li>
-                           <li><a href="directions.html">Contact / Directions</a></li>
-                           <li>
-                              <a href="explore.html">Explore</a>
-                           </li>
-                           <li>
-                              <a href="art_bnb_en.html">Art'B&amp;B</a>
-                           </li>
-                           <li class="langugage-destkop">
-                              <i data-feather="globe"></i>
-                              <ul>
-                                 <li><a href="index.html">Français</a></li>
-                                 <li><a href="lage.html">Deutsch</a></li>
-                              </ul>
-                           </li>
-                        </ul>
-                     </nav>
-                     <a href="https://tinyurl.com/ym79qhn9" class="mil-button">
-                     <i data-feather="bookmark"></i>
-                     <span>Book Now</span>
-                     </a>
-                  </div>
-               </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <!-- datepicker css -->
+    <link rel="stylesheet" href="css/plugins/datepicker.css" />
+    <!-- aquarelle css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- page name -->
+    <title>Villa Thalassa: Bed and Breakfast on the French Riviera</title>
+    <meta
+      name="description"
+      content="Charming Bed and Breakfast facing the sea located on the French Riviera in Le Lavandou with swimming pool. Book now!"
+    />
+    <!-- hreflangs -->
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.villathalassa-lavandou.fr/"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://www.villathalassa-lavandou.fr/"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.villathalassa-lavandou.fr/home.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="de"
+      href="https://www.villathalassa-lavandou.fr/lage.html"
+    />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <!-- wrapper -->
+    <div class="mil-wrapper">
+      <!-- top panel -->
+      <div class="mil-top-panel">
+        <div class="container">
+          <div class="mil-top-panel-content">
+            <a href="home.html" class="mil-logo">
+              <img
+                src="img/logo-villa.png"
+                alt="Logo Villa Thalassa au Lavandou, Var"
+              />
+            </a>
+            <div class="mil-language-btn">
+              <i data-feather="globe"></i>
             </div>
-         </div>
-         <!-- top panel end -->
+            <div class="mil-language-menu">
+              <nav class="mil-menu">
+                <ul>
+                  <li><a href="index.html">Français</a></li>
+                  <li><a href="lage.html">Deutsch</a></li>
+                </ul>
+              </nav>
+            </div>
 
-         <!-- banner -->
-         <div class="mil-banner">
-            <img src="img/shapes/4.png" class="mil-shape" style="width: 110%; top: -5%; left: -30%; opacity: .2" alt="shape">
-            <div class="container">
-               <div class="mil-banner-content-frame">
-                  <div class="mil-banner-content">
-                     <div class="mil-illustration-4">
-                        <img src="img/shapes/4.png" class="mil-shape mil-fade-up" alt="shape">
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="mil-banner-head mil-text-center">
-                              <h1 class="mil-h1-lg mil-mb-100">Villa Thalassa, <br> Charming Bed & Breakfast</h1>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row justify-content-between flex-sm-row-reverse">
-                        <div class="col-xl-6">
-                           <ul class="mil-banner-list">
-                              <li>
-                                 <img src="img/images/image_index_2.jpg" alt="img">
-                                 <div class="mil-item-text">
-                                    <h4>Relaxing and fun</h4>
-                                    <p>Bed and breakfast on the French Riviera in Le Lavandou, located between Toulon and St-Tropez, overlooking the beautiful beach of St-Clair famous for its turquoise crystal water. St-Clair beach is only a 15-minute walk away from the Villa.</p>
-                                 </div>
-                              </li>
-                              <li>
-                                 <img src="img/images/image_index_3.jpg" alt="img">
-                                 <div class="mil-item-text">
-                                    <h4>Luxury et comfort</h4>
-                                    <p>Reward yourself with an exclusive and unique stay in our charming home, offering a panoramic view of the Mediterranean sea and the Golden Isles.</p>
-                                 </div>
-                              </li>
-                              <li>
-                                 <img src="img/images/jardin.jpeg" alt="img">
-                                 <div class="mil-item-text">
-                                    <h4>A unique experience</h4>
-                                    <p>Villa Thalassa is nestled in the Massif des Maures hills, in a quiet and private setting, with typical Mediterranean "ambiance".</p>
-                                 </div>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="col-xl-5">
-                           <div class="mil-illustration-3">
-                              <img src="img/shapes/4.png" class="mil-shape mil-fade-up" alt="shape">
-                              <div class="mil-main-img">
-                                 <img src="img/images/homepage-removebg-preview.webp" alt="img">
-                              </div>
-                              <img src="img/shapes/1.png" alt="object" class="mil-figure mil-1 mil-fade-up">
-                              <img src="img/shapes/2.png" alt="object" class="mil-figure mil-2 mil-fade-up">
-                              <img src="img/shapes/3.png" alt="object" class="mil-figure mil-3 mil-fade-up">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+            <div class="mil-menu-btn">
+              <span></span>
             </div>
-         </div>
-         <!-- banner end -->
-         <div class="mil-about mil-p-100-0">
-            <img src="img/shapes/4.png" class="mil-shape" style="width: 180%; bottom: -100%; left: -20%; opacity: .2" alt="shape">
-            <div class="container">
-               <div class="row justify-content-between align-items-center">
-                  <div class="col-xl-5 mil-mb-100">
-                     <div class="mil-text-frame">
-                        <div class="mil-suptitle mil-mb-20">About the Villa Thalassa</div>
-                        <p class="mil-mb-20">During summer, you will appreciate relaxing on our terraces amoung pine trees, olive trees, eucalyptus, cork oaks and cypress, rocked by the soothing sound of cicadas. You will feel privileged to contemplate the wild garrigue of a classified natural site "Espace Remarquable". You and your beloved will definitely enjoy cooling off in our large infinity swimming pool with its South exposition while admiring the Big Blue.</p>
-                        <p class="mil-mb-20">We look forward to welcoming you in one of our three VIP rooms, or in our exotic Gipsy trailer with sauna. We have no doubt that you will feel pampered and spoilt and enjoy a restful stay as well as a full relaxation.</p>
-                        <p class="mil-mb-20">In the morning, enjoy a true moment of conviviality, on the terrace or in the dining room, both have stunning view on the Mediterranean and the St-Clair bay. We will be happy to serve you our fresh gourmet continental breakfast.</p>
-                        <p class="mil-mb-20">Let the beauty of the region inspire you. Take your time to discover Le Lavandou –an authentic fishermen village- and its 12 amazing beaches with thin sand and small coves.</p>
-                        <p>After a day of exploration, enjoy our outdoor terraces on the garrigue side specially reserved for you to spend quality time, read, rest, share or celebrate with your loved ones. A charming outdoor kitchen allows you to prepare small meals and entertain.</p>
-                     </div>
-                  </div>
-                  <div class="col-xl-5 mil-mb-100">
-                     <div class="mil-illustration-1">
-                        <img src="img/shapes/4.png" class="mil-shape mil-fade-up" alt="shape">
-                        <div class="mil-circle mil-1 mil-fade-up">
-                           <img src="img/images/image_index_2.jpg" alt="img">
-                        </div>
-                        <div class="mil-circle mil-2 mil-fade-up">
-                           <img src="img/images/terrasses-cuisine-ext.jpeg" alt="img">
-                        </div>
-                        <div class="mil-circle mil-3 mil-fade-up">
-                           <img src="img/images/jardin.jpeg" alt="img">
-                        </div>
-                        <div class="mil-circle mil-4 mil-fade-up">
-                           <img src="img/images/image_index_3.jpg" alt="img">
-                        </div>
-                        <img src="img/shapes/1.png" alt="object" class="mil-figure mil-1 mil-fade-up">
-                        <img src="img/shapes/2.png" alt="object" class="mil-figure mil-2 mil-fade-up">
-                        <img src="img/shapes/3.png" alt="object" class="mil-figure mil-3 mil-fade-up">
-                     </div>
-                  </div>
-               </div>
+            <div class="mil-mobile-menu">
+              <nav class="mil-menu">
+                <ul>
+                  <li>
+                    <a href="our_rooms.html">Our Rooms</a>
+                  </li>
+                  <li>
+                    <a href="rates.html">Rates</a>
+                  </li>
+                  <li><a href="directions.html">Contact / Directions</a></li>
+                  <li>
+                    <a href="explore.html">Explore</a>
+                  </li>
+                  <li>
+                    <a href="art_bnb_en.html">Art'B&amp;B</a>
+                  </li>
+                  <li class="langugage-destkop">
+                    <i data-feather="globe"></i>
+                    <ul>
+                      <li><a href="index.html">Français</a></li>
+                      <li><a href="lage.html">Deutsch</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <a href="https://tinyurl.com/ym79qhn9" class="mil-button">
+                <i data-feather="bookmark"></i>
+                <span>Book Now</span>
+              </a>
             </div>
-         </div>
-         <!-- about 1 end -->
-         <!-- reviews -->
-         <div class="mil-content-pad mil-mb-100 mil-p-100-100" style="background-image: url(img/shapes/5.png); background-size: 100%">
-            <div class="container">
-                         <!-- placeholder widget -->
-            </div>
-         </div>
-         <!-- reviews end -->
-          
-         <!-- footer -->
-         <footer>
-            <img src="img/shapes/4.png" class="mil-shape mil-fade-up" style="width: 85%; top: -15%; left: -40%; transform: rotate(-50deg)" alt="shape">
-            <div class="mil-footer-content mil-fade-up">
-               <div class="container">
-                  <div class="row justify-content-between mil-p-100-40">
-                     <div class="col-md-4 col-lg-4 mil-mb-60">
-                        <a href="home.html" class="mil-logo mil-mb-40">
-                        <img src="img/logo-villa.png" alt="Logo Villa Thalassa">
-                        </a>
-                     </div>
-                     <div class="col-md-7 col-lg-6">
-                        <div class="row justify-content-end">
-                           <div class="col-md-6 col-lg-7 mil-mb-60">
-                              <nav class="mil-footer-menu">
-                                 <ul>
-                                    <li  class="mil-active">
-                                       <a href="home.html">Home</a>
-                                    </li>
-                                    <li>
-                                       <a href="our_rooms.html">Our Rooms</a>
-                                    </li>
-                                    <li>
-                                       <a href="rates.html">Rates</a>
-                                    </li>
-                                    <li>
-                                       <a href="art_bnb_en.html">Art'B&B</a>
-                                    </li>
-                                    <li>
-                                       <a href="directions.html">Contact</a>
-                                    </li>
-                                 </ul>
-                              </nav>
-                           </div>
-                           <div class="col-md-6 col-lg-5 mil-mb-60">
-                              <ul class="mil-menu-list">
-                                 <li><a href="video_en.html" class="mil-light-soft">Video</a></li>
-                                 <li><a href="directions.html" class="mil-light-soft">Access</a></li>
-                                 <li><a href="explore.html" class="mil-light-soft">Explore</a></li>
-                                 <li><a href="workshop.html" class="mil-light-soft">Painting Workshop</a></li>
-                                 <li><a href="mentions_legales.html" class="mil-light-soft">Legal Mentions</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="mil-divider"></div>
-                  <div class="row justify-content-between flex-sm-row-reverse mil-p-100-40">
-                     <div class="col-md-7 col-lg-6">
-                        <div class="row justify-content-between">
-                           <div class="col-md-12 col-lg-15 mil-mb-40 label-img">
-                              <a href="https://provence-alpes-cotedazur.com/sejourner/hebergements/tous-les-hebergements/villa-thalassa-le-lavandou-fr-3025968/" >
-                                  <img src="img/label/logo-region-sud.jpeg" alt="Région Sud Provence Alpes Côte d'Azur" width="150"/>
-                              </a>
-                              <a href="https://www.ot-lelavandou.fr/chambres-hotes-lelavandou/villa-thalassa-suite-st-clair/" >
-                                  <img src="img/label/logo_lelavandou.png" alt="Le Lavandou office de tourisme" width="100"/>
-                              </a>
-                              <a href="https://offices-tourisme-sud.fr/chambre-hotes-reference/">
-                                  <img src="img/label/logo_chambre_dhotes_ref.jpg" alt="Le Lavandou" width="75"/>
-                              </a>
-                              <a href="https://www.mhvprovence.com/project/villa-thalassa-le-lavandou/">
-                                  <img src="img/label/logos_MHP.png" alt="Région Sud Provence Alpes Côte d'Azur" width="80"/>
-                              </a>
-                              <a href="https://provence-alpes-cotedazur.com/que-faire/velo/label-accueil-velo-sejour-region-sud/">
-                                  <img src="img/label/accueil-velo.jpg" alt="Label Accueil Vélo" width="70"/>
-                              </a>
-                              <a href="https://www.atout-france.fr/services/le-label-vignobles-decouvertes">
-                                  <img src="img/label/vignoble-decouverte.jpg" alt="Les Maisons d’Hôte de Provence" width="70" style="display: inline-block;"/>
-                              </a>             
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-lg-6 mil-mb-40">
-                        <div class="mil-mb-20">
-                           <ul class="mil-social-icons">
-                              <li>
-                                 <a href="https://www.facebook.com/villathalassalavandou83/" class="social-icon">
-                                 <i data-feather="facebook"></i>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="https://www.instagram.com/villa_thalassa/" class="social-icon">
-                                 <i data-feather="instagram"></i>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="tel:+33649982318" class="social-icon">
-                                 <i data-feather="phone-call"></i>
-                                 </a>
-                              </li>
-                              <li>
-                                 <a href="mailto:contact@villathalassa-lavandou.fr" class="social-icon">
-                                 <i data-feather="mail"></i>
-                                 </a>
-                              </li>   
-                           </ul>
-                         </div>
-
-                        <p class="mil-light-soft">
-                           © <script type="text/javascript">document.write(new Date().getFullYear());</script> Villa Thalassa - All rights reserved.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- footer end -->
-          
-         <div class="mil-progressbar"></div>
-          
+          </div>
+        </div>
       </div>
-      <!-- wrapper end -->
-       
-      <!-- jQuery js -->
-      <script src="js/plugins/jquery.min.js"></script>
-      <!-- smooth scroll js -->
-      <script src="js/plugins/smooth-scroll.js"></script>
-      <!-- swiper js -->
-      <script src="js/plugins/swiper.min.js"></script>
-      <!-- datepicker js -->
-      <script src="js/plugins/datepicker.js"></script>
-      <!-- aquarelle js -->
-      <script src="js/main.js"></script>
-      <!-- icon js -->
-      <script src="js/plugins/feather.js"></script>
-      <script>feather.replace();</script>
-       
-   </body>
+      <!-- top panel end -->
+
+      <!-- banner -->
+      <div class="mil-banner">
+        <img
+          src="img/shapes/4.png"
+          class="mil-shape"
+          style="width: 110%; top: -5%; left: -30%; opacity: 0.2"
+          alt="shape"
+        />
+        <div class="container">
+          <div class="mil-banner-content-frame">
+            <div class="mil-banner-content">
+              <div class="mil-illustration-4">
+                <img
+                  src="img/shapes/4.png"
+                  class="mil-shape mil-fade-up"
+                  alt="shape"
+                />
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="mil-banner-head mil-text-center">
+                    <h1 class="mil-h1-lg mil-mb-100">
+                      Villa Thalassa, <br />
+                      Charming Bed & Breakfast
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-between flex-sm-row-reverse">
+                <div class="col-xl-6">
+                  <ul class="mil-banner-list">
+                    <li>
+                      <img src="img/images/image_index_2.jpg" alt="img" />
+                      <div class="mil-item-text">
+                        <h4>Relaxing and fun</h4>
+                        <p>
+                          Bed and breakfast on the French Riviera in Le
+                          Lavandou, located between Toulon and St-Tropez,
+                          overlooking the beautiful beach of St-Clair famous for
+                          its turquoise crystal water. St-Clair beach is only a
+                          15-minute walk away from the Villa.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="img/images/image_index_3.jpg" alt="img" />
+                      <div class="mil-item-text">
+                        <h4>Luxury et comfort</h4>
+                        <p>
+                          Reward yourself with an exclusive and unique stay in
+                          our charming home, offering a panoramic view of the
+                          Mediterranean sea and the Golden Isles.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img src="img/images/jardin.jpeg" alt="img" />
+                      <div class="mil-item-text">
+                        <h4>A unique experience</h4>
+                        <p>
+                          Villa Thalassa is nestled in the Massif des Maures
+                          hills, in a quiet and private setting, with typical
+                          Mediterranean "ambiance".
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-xl-5">
+                  <div class="mil-illustration-3">
+                    <img
+                      src="img/shapes/4.png"
+                      class="mil-shape mil-fade-up"
+                      alt="shape"
+                    />
+                    <div class="mil-main-img">
+                      <img
+                        src="img/images/homepage-removebg-preview.webp"
+                        alt="img"
+                      />
+                    </div>
+                    <img
+                      src="img/shapes/1.png"
+                      alt="object"
+                      class="mil-figure mil-1 mil-fade-up"
+                    />
+                    <img
+                      src="img/shapes/2.png"
+                      alt="object"
+                      class="mil-figure mil-2 mil-fade-up"
+                    />
+                    <img
+                      src="img/shapes/3.png"
+                      alt="object"
+                      class="mil-figure mil-3 mil-fade-up"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end -->
+      <div class="mil-about mil-p-100-0">
+        <img
+          src="img/shapes/4.png"
+          class="mil-shape"
+          style="width: 180%; bottom: -100%; left: -20%; opacity: 0.2"
+          alt="shape"
+        />
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-xl-5 mil-mb-100">
+              <div class="mil-text-frame">
+                <div class="mil-suptitle mil-mb-20">
+                  About the Villa Thalassa
+                </div>
+                <p class="mil-mb-20">
+                  During summer, you will appreciate relaxing on our terraces
+                  amoung pine trees, olive trees, eucalyptus, cork oaks and
+                  cypress, rocked by the soothing sound of cicadas. You will
+                  feel privileged to contemplate the wild garrigue of a
+                  classified natural site "Espace Remarquable". You and your
+                  beloved will definitely enjoy cooling off in our large
+                  infinity swimming pool with its South exposition while
+                  admiring the Big Blue.
+                </p>
+                <p class="mil-mb-20">
+                  We look forward to welcoming you in one of our three VIP
+                  rooms, or in our exotic Gipsy trailer with sauna. We have no
+                  doubt that you will feel pampered and spoilt and enjoy a
+                  restful stay as well as a full relaxation.
+                </p>
+                <p class="mil-mb-20">
+                  In the morning, enjoy a true moment of conviviality, on the
+                  terrace or in the dining room, both have stunning view on the
+                  Mediterranean and the St-Clair bay. We will be happy to serve
+                  you our fresh gourmet continental breakfast.
+                </p>
+                <p class="mil-mb-20">
+                  Let the beauty of the region inspire you. Take your time to
+                  discover Le Lavandou –an authentic fishermen village- and its
+                  12 amazing beaches with thin sand and small coves.
+                </p>
+                <p>
+                  After a day of exploration, enjoy our outdoor terraces on the
+                  garrigue side specially reserved for you to spend quality
+                  time, read, rest, share or celebrate with your loved ones. A
+                  charming outdoor kitchen allows you to prepare small meals and
+                  entertain.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-5 mil-mb-100">
+              <div class="mil-illustration-1">
+                <img
+                  src="img/shapes/4.png"
+                  class="mil-shape mil-fade-up"
+                  alt="shape"
+                />
+                <div class="mil-circle mil-1 mil-fade-up">
+                  <img src="img/images/image_index_2.jpg" alt="img" />
+                </div>
+                <div class="mil-circle mil-2 mil-fade-up">
+                  <img src="img/images/terrasses-cuisine-ext.jpeg" alt="img" />
+                </div>
+                <div class="mil-circle mil-3 mil-fade-up">
+                  <img src="img/images/jardin.jpeg" alt="img" />
+                </div>
+                <div class="mil-circle mil-4 mil-fade-up">
+                  <img src="img/images/image_index_3.jpg" alt="img" />
+                </div>
+                <img
+                  src="img/shapes/1.png"
+                  alt="object"
+                  class="mil-figure mil-1 mil-fade-up"
+                />
+                <img
+                  src="img/shapes/2.png"
+                  alt="object"
+                  class="mil-figure mil-2 mil-fade-up"
+                />
+                <img
+                  src="img/shapes/3.png"
+                  alt="object"
+                  class="mil-figure mil-3 mil-fade-up"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about 1 end -->
+      <!-- reviews -->
+      <div
+        class="mil-content-pad mil-mb-100 mil-p-100-100"
+        style="background-image: url(img/shapes/5.png); background-size: 100%"
+      >
+        <div class="container">
+          <!-- placeholder widget -->
+        </div>
+      </div>
+      <!-- reviews end -->
+
+      <!-- footer -->
+      <footer>
+        <img
+          src="img/shapes/4.png"
+          class="mil-shape mil-fade-up"
+          style="width: 85%; top: -15%; left: -40%; transform: rotate(-50deg)"
+          alt="shape"
+        />
+        <div class="mil-footer-content mil-fade-up">
+          <div class="container">
+            <div class="row justify-content-between mil-p-100-40">
+              <div class="col-md-4 col-lg-4 mil-mb-60">
+                <a href="home.html" class="mil-logo mil-mb-40">
+                  <img src="img/logo-villa.png" alt="Logo Villa Thalassa" />
+                </a>
+              </div>
+              <div class="col-md-7 col-lg-6">
+                <div class="row justify-content-end">
+                  <div class="col-md-6 col-lg-7 mil-mb-60">
+                    <nav class="mil-footer-menu">
+                      <ul>
+                        <li class="mil-active">
+                          <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                          <a href="our_rooms.html">Our Rooms</a>
+                        </li>
+                        <li>
+                          <a href="rates.html">Rates</a>
+                        </li>
+                        <li>
+                          <a href="art_bnb_en.html">Art'B&B</a>
+                        </li>
+                        <li>
+                          <a href="directions.html">Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col-md-6 col-lg-5 mil-mb-60">
+                    <ul class="mil-menu-list">
+                      <li>
+                        <a href="video_en.html" class="mil-light-soft">Video</a>
+                      </li>
+                      <li>
+                        <a href="directions.html" class="mil-light-soft"
+                          >Access</a
+                        >
+                      </li>
+                      <li>
+                        <a href="explore.html" class="mil-light-soft"
+                          >Explore</a
+                        >
+                      </li>
+                      <li>
+                        <a href="workshop.html" class="mil-light-soft"
+                          >Painting Workshop</a
+                        >
+                      </li>
+                      <li>
+                        <a href="mentions_legales.html" class="mil-light-soft"
+                          >Legal Mentions</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mil-divider"></div>
+            <div
+              class="row justify-content-between flex-sm-row-reverse mil-p-100-40"
+            >
+              <div class="col-md-7 col-lg-6">
+                <div class="row justify-content-between">
+                  <div class="col-md-12 col-lg-15 mil-mb-40 label-img">
+                    <a
+                      href="https://provence-alpes-cotedazur.com/sejourner/hebergements/tous-les-hebergements/villa-thalassa-le-lavandou-fr-3025968/"
+                    >
+                      <img
+                        src="img/label/logo-region-sud.jpeg"
+                        alt="Région Sud Provence Alpes Côte d'Azur"
+                        width="150"
+                      />
+                    </a>
+                    <a
+                      href="https://www.ot-lelavandou.fr/chambres-hotes-lelavandou/villa-thalassa-suite-st-clair/"
+                    >
+                      <img
+                        src="img/label/logo_lelavandou.png"
+                        alt="Le Lavandou office de tourisme"
+                        width="100"
+                      />
+                    </a>
+                    <a
+                      href="https://offices-tourisme-sud.fr/chambre-hotes-reference/"
+                    >
+                      <img
+                        src="img/label/logo_chambre_dhotes_ref.jpg"
+                        alt="Le Lavandou"
+                        width="75"
+                      />
+                    </a>
+                    <a
+                      href="https://www.mhvprovence.com/project/villa-thalassa-le-lavandou/"
+                    >
+                      <img
+                        src="img/label/logos_MHP.png"
+                        alt="Région Sud Provence Alpes Côte d'Azur"
+                        width="80"
+                      />
+                    </a>
+                    <a
+                      href="https://provence-alpes-cotedazur.com/que-faire/velo/label-accueil-velo-sejour-region-sud/"
+                    >
+                      <img
+                        src="img/label/accueil-velo.jpg"
+                        alt="Label Accueil Vélo"
+                        width="70"
+                      />
+                    </a>
+                    <a
+                      href="https://www.atout-france.fr/services/le-label-vignobles-decouvertes"
+                    >
+                      <img
+                        src="img/label/vignoble-decouverte.jpg"
+                        alt="Les Maisons d’Hôte de Provence"
+                        width="70"
+                        style="display: inline-block"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-6 mil-mb-40">
+                <div class="mil-mb-20">
+                  <ul class="mil-social-icons">
+                    <li>
+                      <a
+                        href="https://www.facebook.com/villathalassalavandou83/"
+                        class="social-icon"
+                      >
+                        <i data-feather="facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/villa_thalassa/"
+                        class="social-icon"
+                      >
+                        <i data-feather="instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+33649982318" class="social-icon">
+                        <i data-feather="phone-call"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:contact@villathalassa-lavandou.fr"
+                        class="social-icon"
+                      >
+                        <i data-feather="mail"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <p class="mil-light-soft">
+                  ©
+                  <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                  </script>
+                  Villa Thalassa - All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+      <div class="mil-progressbar"></div>
+    </div>
+    <!-- wrapper end -->
+
+    <!-- jQuery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- smooth scroll js -->
+    <script src="js/plugins/smooth-scroll.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- datepicker js -->
+    <script src="js/plugins/datepicker.js"></script>
+    <!-- aquarelle js -->
+    <script src="js/main.js"></script>
+    <!-- icon js -->
+    <script src="js/plugins/feather.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
