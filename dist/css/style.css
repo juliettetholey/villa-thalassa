@@ -3547,7 +3547,6 @@ footer .mil-footer-content .mil-logo img {
   .mil-language-menu .mil-menu,
   .mil-mobile-menu .mil-menu {
     width: 100%;
-    margin-bottom: 40px;
   }
   .mil-language-menu .mil-menu ul,
   .mil-mobile-menu .mil-menu ul {
@@ -3706,38 +3705,6 @@ div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"]
   .co-widget-btn-resume-capa {
   font-family: "Outfit";
 }
-
-.scrollable {
-  overflow-x: auto;
-}
-.scrollable.has-scroll {
-  position: relative;
-  overflow: hidden;
-}
-.scrollable.has-scroll:after {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 50px;
-  height: 100%;
-  border-radius: 10px 0 0 10px / 50% 0 0 50%;
-  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.25);
-  content: "";
-}
-.scrollable.has-scroll > div {
-  overflow-x: auto;
-}
-.scrollable > div::-webkit-scrollbar {
-  height: 6px;
-}
-.scrollable > div::-webkit-scrollbar-track {
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15) inset;
-  background: #f0f0f0;
-}
-.scrollable > div::-webkit-scrollbar-thumb {
-  border-radius: 6px;
-  background: #23bcec;
-}
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
@@ -3748,5 +3715,16 @@ div[data-widget-id="9d7f2d2c-a476-42e7-9151-0d07147cb7dd"]
 .mil-top-panel .mil-top-panel-content .mil-logo img {
   @media screen and (max-width: 1200px) {
     width: 80%;
+  }
+}
+.simplebar-scrollbar::before {
+  background-color: #204f5e !important;
+}
+.simplebar-content::after {
+  padding-bottom: 10px;
+}
+.simplebar-track.simplebar-horizontal {
+  @media screen and (max-width: 1200px) {
+    background-color: rgb(213, 241, 241) !important;
   }
 }

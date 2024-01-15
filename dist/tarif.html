@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="css/plugins/datepicker.css" />
     <!-- aquarelle css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- simplebar css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
     <!-- page name -->
     <title>
-      Tarif et Conditions - Chambres d'hôtes au Lavandou | Villa Thalassa
+      Tarifs et Conditions - Chambres d'hôtes au Lavandou | Villa Thalassa
     </title>
     <meta
       name="description"
@@ -122,7 +127,7 @@
                 </ul>
               </nav>
               <a href="https://tinyurl.com/yg42sbuy" class="mil-button">
-                <i data-feather="bookmark"></i>
+                <i data-feather="calendar"></i>
                 <span>Réserver</span>
               </a>
             </div>
@@ -181,46 +186,53 @@
         <div class="container mil-p-100-100">
           <div class="row justify-content-center">
             <div class="col-xl-8">
-              <table style="margin-bottom: 10px">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>Mars - Avril</th>
-                    <th>Mai - Juin</th>
-                    <th>Juillet - Août</th>
-                    <th>Septembre</th>
-                    <th>Octobre</th>
-                  </tr>
-                  <tr>
-                    <td><b>Suite St-Clair</b></td>
-                    <td>190 €</td>
-                    <td>275 €</td>
-                    <td>300 €</td>
-                    <td>275 €</td>
-                    <td>190 €</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <b>Suite familiale Levant &amp; Port-Cros</b><br />
-                      -1 chambre pour 2 personnes-<br />
-                      -2 chambres pour 4 personnes-
-                    </td>
-                    <td><br />150 € <br />270 €</td>
-                    <td><br />210 € <br />375 €</td>
-                    <td><br />250 € <br />410 €</td>
-                    <td><br />210 € <br />375 €</td>
-                    <td><br />150 € <br />270 €</td>
-                  </tr>
-                  <tr>
-                    <td><b>Roulotte-sauna Pelagos</b></td>
-                    <td>140 €</td>
-                    <td>180 €</td>
-                    <td>200 €</td>
-                    <td>180 €</td>
-                    <td>140 €</td>
-                  </tr>
-                </thead>
-              </table>
+              <div
+                data-simplebar
+                data-simplebar-auto-hide="false"
+                data-simplebar-click-on-track="false"
+                data-simplebar-force-visible="true"
+              >
+                <table style="margin-bottom: 10px">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Mars - Avril</th>
+                      <th>Mai - Juin</th>
+                      <th>Juillet - Août</th>
+                      <th>Septembre</th>
+                      <th>Octobre</th>
+                    </tr>
+                    <tr>
+                      <td><b>Suite St-Clair</b></td>
+                      <td>190 €</td>
+                      <td>275 €</td>
+                      <td>300 €</td>
+                      <td>275 €</td>
+                      <td>190 €</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <b>Suite familiale Levant &amp; Port-Cros</b><br />
+                        -1 chambre pour 2 personnes-<br />
+                        -2 chambres pour 4 personnes-
+                      </td>
+                      <td><br />150 € <br />270 €</td>
+                      <td><br />210 € <br />375 €</td>
+                      <td><br />250 € <br />410 €</td>
+                      <td><br />210 € <br />375 €</td>
+                      <td><br />150 € <br />270 €</td>
+                    </tr>
+                    <tr>
+                      <td><b>Roulotte-sauna Pelagos</b></td>
+                      <td>140 €</td>
+                      <td>180 €</td>
+                      <td>200 €</td>
+                      <td>180 €</td>
+                      <td>140 €</td>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
               <p class="mil-mb-40" style="margin-top: 20px">
                 <span class="mil-accent-2">*</span> Prix de la nuit,
                 petit-déjeuner inclus, taxe de séjour non incluse (1,15
@@ -229,46 +241,16 @@
               </p>
 
               <span class="mil-buttons-frame mil-center mil-fade-up mil-mb-100">
-                <a href="acces.html" class="mil-button">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-mail"
-                  >
-                    <path
-                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                    ></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                  <span>Contactez-nous</span>
+                <a href="les_chambres.html" class="mil-button">
+                  <i data-feather="key"></i>
+                  <span>Voir les chambres</span>
                 </a>
                 <a
                   href="https://tinyurl.com/yg42sbuy"
                   class="mil-link mil-open-book-popup"
                 >
                   <span>Réservez en direct</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-arrow-right"
-                  >
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
+                  <i data-feather="arrow-right"></i>
                 </a>
               </span>
 
@@ -276,38 +258,38 @@
 
               <h2 class="mil-mb-60">Informations Contractuelles</h2>
 
-              <h4>Fermeture annuelle</h4>
+              <h3 class="mil-mb-20">Fermeture annuelle</h3>
               <p class="mil-mb-40">
                 Du 1er novembre 2023 au 28 mars 2024 inclus. Ré-ouverture le 29
                 mars 2024.
               </p>
 
-              <h4>Heure d'arrivée</h4>
+              <h3 class="mil-mb-20">Heure d'arrivée</h3>
               <p class="mil-mb-40">
                 Nos chambres seront disponibles à partir de 17 h et jusque 20 h.
                 Afin de vous réserver le meilleur accueil, merci de nous
                 signaler toute arrivée en dehors de ces horaires.
               </p>
 
-              <h4>Heure de départ</h4>
+              <h3 class="mil-mb-20">Heure de départ</h3>
               <p class="mil-mb-40">
                 Afin de nous permettre d’accueillir les nouveaux hôtes dans les
                 meilleures conditions, nos chambres devront être libérées au
                 plus tard à 11 h.
               </p>
 
-              <h4>Petits-déjeuners</h4>
+              <h3 class="mil-mb-20">Petits-déjeuners</h3>
               <p class="mil-mb-40">
                 Les petits-déjeuners sont servis de 8h00 à 10h00.
               </p>
 
-              <h4>Moyens de paiements</h4>
+              <h3 class="mil-mb-20">Moyens de paiements</h3>
               <p class="mil-mb-40">
                 Espèces, cartes bancaires. Votre réservation est garantie dès
                 réception d’un acompte de 30 % de la totalité du séjour.
               </p>
 
-              <h4>Conditions d’annulation</h4>
+              <h3 class="mil-mb-20">Conditions d’annulation</h3>
               <p class="mil-mb-10">
                 - annulation 30 jours avant le séjour : restitution de la
                 totalité de l’acompte
@@ -327,13 +309,13 @@
                 titre nous ne disposons pas de lit d’appoint supplémentaire.
               </blockquote>
 
-              <h4>Enfants</h4>
+              <h3 class="mil-mb-20">Enfants</h3>
               <p class="mil-mb-20">
                 Pour des raisons de sécurité, la villa n'est pas adaptée pour
                 l'accueil des plus jeunes : enfants à partir de 7 ans.
               </p>
 
-              <h4>Accueil animaux</h4>
+              <h3 class="mil-mb-20">Accueil animaux</h3>
               <p class="mil-mb-20">
                 Nous regrettons de ne pouvoir accepter vos animaux.
               </p>
@@ -541,39 +523,12 @@
     <script src="js/plugins/datepicker.js"></script>
     <!-- aquarelle js -->
     <script src="js/main.js"></script>
+    <!-- scrollbar js -->
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
     <!-- icon js -->
     <script src="js/plugins/feather.js"></script>
     <script>
       feather.replace();
-    </script>
-    <script>
-      $(window).on("load", function () {
-        // Check all tables. You may need to be more restrictive.
-        $("table").each(function () {
-          var element = $(this);
-          // Create the wrapper element
-          var scrollWrapper = $("<div />", {
-            class: "scrollable",
-            html: "<div />", // The inner div is needed for styling
-          }).insertBefore(element);
-          // Store a reference to the wrapper element
-          element.data("scrollWrapper", scrollWrapper);
-          // Move the scrollable element inside the wrapper element
-          element.appendTo(scrollWrapper.find("div"));
-          // Check if the element is wider than its parent and thus needs to be scrollable
-          if (element.outerWidth() > element.parent().outerWidth()) {
-            element.data("scrollWrapper").addClass("has-scroll");
-          }
-          // When the viewport size is changed, check again if the element needs to be scrollable
-          $(window).on("resize orientationchange", function () {
-            if (element.outerWidth() > element.parent().outerWidth()) {
-              element.data("scrollWrapper").addClass("has-scroll");
-            } else {
-              element.data("scrollWrapper").removeClass("has-scroll");
-            }
-          });
-        });
-      });
     </script>
   </body>
 </html>

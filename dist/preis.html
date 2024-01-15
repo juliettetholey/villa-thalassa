@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="css/plugins/datepicker.css" />
     <!-- aquarelle css -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- scrollbar css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
     <!-- page name -->
     <title>Villa Thalassa | Preise</title>
     <meta
@@ -88,8 +93,8 @@
             <div class="mil-language-menu">
               <nav class="mil-menu">
                 <ul>
-                  <li><a href="suite_st_clair.html">Français</a></li>
-                  <li><a href="st_clair_en.html">English</a></li>
+                  <li><a href="tarif.html">Français</a></li>
+                  <li><a href="rates.html">English</a></li>
                 </ul>
               </nav>
             </div>
@@ -118,8 +123,8 @@
                   <li class="langugage-destkop">
                     <i data-feather="globe"></i>
                     <ul>
-                      <li><a href="suite_st_clair.html">Français</a></li>
-                      <li><a href="st_clair_en.html">English</a></li>
+                      <li><a href="tarif.html">Français</a></li>
+                      <li><a href="rates.html">English</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -184,94 +189,71 @@
         <div class="container mil-p-100-100">
           <div class="row justify-content-center">
             <div class="col-xl-8">
-              <table style="margin-bottom: 20px">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>April</th>
-                    <th>Mai - Juni</th>
-                    <th>Juli - August</th>
-                    <th>September</th>
-                    <th>October</th>
-                  </tr>
-                  <tr>
-                    <td><b>St-Clair Suite</b></td>
-                    <td>190 €</td>
-                    <td>275 €</td>
-                    <td>300 €</td>
-                    <td>275 €</td>
-                    <td>190 €</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <b>Familiensuite Levant & Port-Cros</b><br />
-                      -1 Schlafzimmer für 2 Personen-<br />
-                      -2 Schlafzimmer für 4 Personen-
-                    </td>
-                    <td><br />150 € <br />270 €</td>
-                    <td><br />210 € <br />375 €</td>
-                    <td><br />250 € <br />410 €</td>
-                    <td><br />210 € <br />375 €</td>
-                    <td><br />150 € <br />270 €</td>
-                  </tr>
-                  <tr>
-                    <td><b>Planwagen mit Sauna Pelagos</b></td>
-                    <td>140 €</td>
-                    <td>180 €</td>
-                    <td>200 €</td>
-                    <td>180 €</td>
-                    <td>140 €</td>
-                  </tr>
-                </thead>
-              </table>
+              <div
+                data-simplebar
+                data-simplebar-auto-hide="false"
+                data-simplebar-click-on-track="false"
+                data-simplebar-force-visible="true"
+              >
+                <table style="margin-bottom: 20px">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>April</th>
+                      <th>Mai - Juni</th>
+                      <th>Juli - August</th>
+                      <th>September</th>
+                      <th>October</th>
+                    </tr>
+                    <tr>
+                      <td><b>St-Clair Suite</b></td>
+                      <td>190 €</td>
+                      <td>275 €</td>
+                      <td>300 €</td>
+                      <td>275 €</td>
+                      <td>190 €</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <b>Familiensuite Levant & Port-Cros</b><br />
+                        -1 Schlafzimmer für 2 Personen-<br />
+                        -2 Schlafzimmer für 4 Personen-
+                      </td>
+                      <td><br />150 € <br />270 €</td>
+                      <td><br />210 € <br />375 €</td>
+                      <td><br />250 € <br />410 €</td>
+                      <td><br />210 € <br />375 €</td>
+                      <td><br />150 € <br />270 €</td>
+                    </tr>
+                    <tr>
+                      <td><b>Planwagen mit Sauna Pelagos</b></td>
+                      <td>140 €</td>
+                      <td>180 €</td>
+                      <td>200 €</td>
+                      <td>180 €</td>
+                      <td>140 €</td>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
               <p class="mil-mb-40" style="margin-top: 20px">
                 <span class="mil-accent-2">*</span> Preise (in EUR/Nacht),
                 Frühstück inklusiv., Kurtaxe nicht inklusiv. (1,15 €/Pers./Tag)
-                Bestpreis Garantie bei online Reservierung auf unserer
+                <b>Bestpreis Garantie</b> bei online Reservierung auf unserer
                 Internetseite.
               </p>
 
               <span class="mil-buttons-frame mil-center mil-fade-up mil-mb-100">
-                <a href="anreise.html" class="mil-button">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-mail"
-                  >
-                    <path
-                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                    ></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                  <span>Kontaktiere uns</span>
+                <a href="zimmer.html" class="mil-button">
+                  <i data-feather="key"></i>
+                  <span>unsere Zimmer</span>
                 </a>
                 <a
                   href="https://tinyurl.com/yogzse2b"
                   class="mil-link mil-open-book-popup"
                 >
                   <span>Buchen Sie direkt</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-arrow-right"
-                  >
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                    <polyline points="12 5 19 12 12 19"></polyline>
-                  </svg>
+                  <i data-feather="arrow-right"></i>
                 </a>
               </span>
 
@@ -279,34 +261,34 @@
 
               <h2 class="mil-mb-60">Praktische Infos</h2>
 
-              <h4>Betriebsferien</h4>
+              <h3 class="mil-mb-20">Betriebsferien</h3>
               <p class="mil-mb-40">
                 das Haus ist von November 2023 bis 28 März 2024 geschlossen.
               </p>
 
-              <h4>Ankunft</h4>
+              <h3 class="mil-mb-20">Ankunft</h3>
               <p class="mil-mb-40">
                 unsere Zimmer sind am Tag Ihrer Ankunft ab 17:00 Uhr bis 20:00
                 Uhr einzugsbereit. Vielen Dank für Ihre Mitteilung bei späterer
                 Ankunft.
               </p>
 
-              <h4>Abreise</h4>
+              <h3 class="mil-mb-20">Abreise</h3>
               <p class="mil-mb-40">
                 wir bitten unsere Gäste am Tag Ihrer Abreise, die Zimmer
                 spätestens um 11:00 Uhr zu räumen.
               </p>
 
-              <h4>Das Frühstück</h4>
+              <h3 class="mil-mb-20">Das Frühstück</h3>
               <p class="mil-mb-40">wird von 08:00 bis 10:00 Uhr serviert</p>
 
-              <h4>Zahlungsmodalitäten</h4>
+              <h3 class="mil-mb-20">Zahlungsmodalitäten</h3>
               <p class="mil-mb-40">
                 Barzahlung, Kreditkarte. Ihre Reservierung ist erst nach Erhalt
                 einer Anzahlung in Höhe von 30% der Gesamtsumme bestätigt.
               </p>
 
-              <h4>Stornierungsbedingungen:</h4>
+              <h3 class="mil-mb-20">Stornierungsbedingungen:</h3>
               <p class="mil-mb-10">
                 - Bei Stornierung 30 Tage vor der Anreise: Rückerstattung der
                 Anzahlung
@@ -326,13 +308,13 @@
                 Gründen stellen wir kein Zusatzbett zur Verfügung.
               </blockquote>
 
-              <h4>Kinder</h4>
+              <h3 class="mil-mb-20">Kinder</h3>
               <p class="mil-mb-20">
                 Unsere Villa ist für den Empfang von Kindern unter 7 Jahren
                 nicht gerecht.
               </p>
 
-              <h4>Haustiere</h4>
+              <h3 class="mil-mb-20">Haustiere</h3>
               <p class="mil-mb-20">
                 da wir eine eigene Katze besitzen, bedauern wir keine weiteren
                 Haustiere empfangen zu können.
@@ -554,34 +536,7 @@
     <script>
       feather.replace();
     </script>
-    <script>
-      $(window).on("load", function () {
-        // Check all tables. You may need to be more restrictive.
-        $("table").each(function () {
-          var element = $(this);
-          // Create the wrapper element
-          var scrollWrapper = $("<div />", {
-            class: "scrollable",
-            html: "<div />", // The inner div is needed for styling
-          }).insertBefore(element);
-          // Store a reference to the wrapper element
-          element.data("scrollWrapper", scrollWrapper);
-          // Move the scrollable element inside the wrapper element
-          element.appendTo(scrollWrapper.find("div"));
-          // Check if the element is wider than its parent and thus needs to be scrollable
-          if (element.outerWidth() > element.parent().outerWidth()) {
-            element.data("scrollWrapper").addClass("has-scroll");
-          }
-          // When the viewport size is changed, check again if the element needs to be scrollable
-          $(window).on("resize orientationchange", function () {
-            if (element.outerWidth() > element.parent().outerWidth()) {
-              element.data("scrollWrapper").addClass("has-scroll");
-            } else {
-              element.data("scrollWrapper").removeClass("has-scroll");
-            }
-          });
-        });
-      });
-    </script>
+    <!-- scrollbar js -->
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
   </body>
 </html>
