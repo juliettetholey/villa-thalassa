@@ -3606,7 +3606,6 @@ footer .mil-footer-content .mil-logo img {
     max-height: 500px;
   }
 }
-
 .mil-language-menu {
   display: none;
 
@@ -3614,7 +3613,6 @@ footer .mil-footer-content .mil-logo img {
     display: flex;
   }
 }
-
 .langugage-destkop {
   display: none;
 
@@ -3622,28 +3620,39 @@ footer .mil-footer-content .mil-logo img {
     display: block;
   }
 }
-
 .mil-shape-bottom {
   @media screen and (max-width: 1200px) {
     display: none;
   }
 }
-
 table {
-  border-collapse: collapse;
   white-space: nowrap;
+  width: 100%;
 }
-
+table th {
+  background-color: rgb(213, 241, 241);
+}
+table td {
+  text-align: center;
+}
+table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
 th,
 td {
-  border: 1px solid rgb(90, 134, 149);
   padding: 10px;
 }
-
 thead th {
   width: 25%;
 }
-
 .label-img a {
   text-decoration: none;
 }
