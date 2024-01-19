@@ -6,10 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- bootstrap grid css -->
     <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
-    <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
-    <!-- datepicker css -->
-    <link rel="stylesheet" href="css/plugins/datepicker.css" />
+        <!-- swiper css -->
+        <link
+        rel="preload"
+        rel="stylesheet"
+        href="css/plugins/swiper.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+      />
+      <noscript
+        ><link rel="stylesheet" href="css/plugins/swiper.min.css"
+      /></noscript>
     <!-- aquarelle css -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- page name -->
@@ -184,7 +191,9 @@
           src="img/shapes/4.webp"
           class="mil-shape"
           style="width: 110%; top: -5%; left: -30%; opacity: 0.2"
+          rel="preload" fetchpriority="high" as="image"
           alt="Chambres d'Hôtes au Lavandou 83980 France"
+          type="image/webp"
         />
         <div class="container">
           <div class="mil-banner-content-frame">
