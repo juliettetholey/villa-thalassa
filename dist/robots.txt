@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://www.villathalassa-lavandou.fr/sitemap.xml
