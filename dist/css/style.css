@@ -11,10 +11,6 @@
     padding-right: 0  !important
 }
 
-.home-hero-booking-container .co-widget-title {
-    color: white !important
-}
-
 .langugage-destkop {
     margin-right: 1rem !important;
 }
@@ -34,6 +30,12 @@
 }
 @media (max-width: 600px) {
     .homepage-banner {
+        display: none;
+      }
+}
+
+@media (min-width: 600px) {
+    .container-desktop {
         display: none;
       }
 }
